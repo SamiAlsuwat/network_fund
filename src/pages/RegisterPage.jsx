@@ -42,7 +42,7 @@ const RegisterPage = ({ onRegister, onNavigate }) => {
       <div className="bg-slate-800/50 backdrop-blur rounded-2xl p-8 w-full max-w-md border border-slate-700">
         <div className="text-center mb-8">
           <div className="w-16 h-16 bg-cyan-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-            <span className="text-white font-black text-xl">C++</span>
+            <span className="text-white font-black text-xl">NET</span>
           </div>
           <h1 className="text-2xl font-bold text-white">Register</h1>
           <p className="text-cyan-300/70 font-arabic">تسجيل حساب جديد</p>
