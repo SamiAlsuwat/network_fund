@@ -23,11 +23,11 @@ const HomePage = ({ user, onNavigate, onLogout }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-cyan-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-black text-sm">C++</span>
+                <span className="text-white font-black text-sm">NET</span>
               </div>
               <div>
-                <h1 className="text-white font-bold">Computer Programming 2</h1>
-                <p className="text-cyan-300/70 text-xs font-arabic">برمجة الحاسب (٢)</p>
+                <h1 className="text-white font-bold">Fundamental Network</h1>
+                <p className="text-cyan-300/70 text-xs font-arabic">أساسيات الشبكات</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -94,7 +94,7 @@ const HomePage = ({ user, onNavigate, onLogout }) => {
           <p className="text-cyan-300/70 font-arabic">أسابيع الدورة</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {weeks.map((week) => {
             const weekProgress = user.progress[`week${week.week}`];
             const isCompleted = weekProgress?.completed;
@@ -139,7 +139,7 @@ const HomePage = ({ user, onNavigate, onLogout }) => {
       </div>
 
       <footer className="py-6 text-center border-t border-slate-800 mt-8">
-        <p className="text-slate-500 text-sm">Computer Programming 2 | Taif University | جامعة الطائف</p>
+        <p className="text-slate-500 text-sm">Fundamental Network | Taif University | جامعة الطائف</p>
         <p className="text-slate-600 text-xs mt-2">College of Computers & Information Technology</p>
       </footer>
     </div>
